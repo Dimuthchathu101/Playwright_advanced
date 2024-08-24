@@ -12,9 +12,7 @@ test('First Playwright Test new', async ({ browser, page }) => {
     await page.goto('https://www.youtube.com');
   
   });
-
   
-
   test.only('Browser Testing', async ({ browser, page }) => {
     await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
 
