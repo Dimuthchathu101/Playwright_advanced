@@ -13,7 +13,7 @@ test('First Playwright Test new', async ({ browser, page }) => {
   
   });
   
-  test.only('Browser Testing', async ({ browser, page }) => {
+  test.only('Browser Testing 4new', async ({ browser, page }) => {
     await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
 
     console.log(await page.title())
